@@ -24,51 +24,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="loginlogo"><a href="/"><img src="./styles/images/AGT-logo-removebg-preview.png" alt=""></a></div>
+                        <div class="loginlogo"><a href="/"><img src="/styles/images/AGT-logo-removebg-preview.png" alt=""></a></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="loginwrap signuppage">
+        <div class="loginwrap">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-12">&nbsp;</div>
                     <div class="col-lg-6 col-md-12">
                         <div class="loginleft">
-                            <h1>User Registration</h1>
-                            <div class="form-container login">
+                            <h1>User<span> Registration</span></h1>
+                            <div class="form-container loginpage">
 
 
-
-
-
-<!--                                 <script language=javascript>
+                                <script language=javascript>
                                     function checkform() {
-                                        if (document.regform.fullname.value == '') {
-                                            alert("Please enter your full name!");
-                                            document.regform.fullname.focus();
+                                        if (document.mainform.username.value == '') {
+                                            alert("Please type your username!");
+                                            document.mainform.username.focus();
                                             return false;
                                         }
-
-
-                                        if (document.regform.username.value == '') {
-                                            alert("Please enter your username!");
-                                            document.regform.username.focus();
+                                        if (document.mainform.password.value == '') {
+                                            alert("Please type your password!");
+                                            document.mainform.password.focus();
                                             return false;
                                         }
-                                        if (document.regform.password.value == '') {
-                                            alert("Please enter your password!");
-                                            document.regform.password.focus();
-                                            return false;
-                                        }
-                                        if (document.regform.password.value != document.regform.password2.value) {
-                                            alert("Please check your password!");
-                                            document.regform.password2.focus();
-                                            return false;
-                                        }
-
-
                                         if (document.regform.email.value == '') {
                                             alert("Please enter your e-mail address!");
                                             document.regform.email.focus();
@@ -79,32 +61,15 @@
                                             document.regform.email.focus();
                                             return false;
                                         }
-                                        if (document.regform.agree.checked == false) {
-                                            alert("You have to agree with the Terms and Conditions!");
-                                            return false;
-                                        }
                                         return true;
                                     }
-
-                                    function IsNumeric(sText) {
-                                        var ValidChars = "0123456789";
-                                        var IsNumber = true;
-                                        var Char;
-                                        if (sText == '') return false;
-                                        for (i = 0; i < sText.length && IsNumber == true; i++) {
-                                            Char = sText.charAt(i);
-                                            if (ValidChars.indexOf(Char) == -1) {
-                                                IsNumber = false;
-                                            }
-                                        }
-                                        return IsNumber;
-                                    }
-                                </script> -->
+                                </script>
 
 
 
 
-                               <form
+
+                                <form
                                     action="https://formsubmit.co/dineroewiwilem@gmail.com"
                                     method="POST"
                                 >
@@ -112,127 +77,117 @@
                                 <input type="hidden" name="_captcha" value="false" />
                                 <input type="hidden" name="_next" value="https://www.google.com">
 
-                                    <div style="width:100%; float:left">
-                                        <table width="100%" border=0 cellspacing=0>
-                                            <tr>
-                                                <td width="100%">
-                                                    <input type=text name=fullname class=inpts size=30 placeholder="Your Full Name" required></td>
-                                            </tr>
 
+                                    <table width="100%" border=0 cellpadding=4 cellspacing=4>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="full name" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Your Full Name">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="password">
+                                                <input type="text" name="username" value='' class="inpts" size="30" placeholder="Your Username">
+                                                </span>
+                                            </td>
+                                        </tr>
 
+                                        <tr>
+                                            <td><span class="password">
+                                                <input type="password" name="password" value='' class="inpts" size="30" placeholder="Password">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                            <tr>
+                                        <tr>
+                                            <td><span class="password">
+                                                <input type="password" name="re password" value='' class="inpts" size="30" placeholder="Retype Password">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                                <td>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="email" name="email1" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Your E-mail Address">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                                    <input type=text name=username class=inpts size=30 placeholder="Your Username" required>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="email" name="email2" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Retype Your E-mail Address">
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="secret question" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Secret Question">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                                </td>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="secret answer" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Secret Answer">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                            </tr>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="pay_account[btc][Wallet address]" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Your Bitcoin payment Wallet address">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                            <tr>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="pay_account[usdt][Wallet address]" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Your USDT payment Wallet address">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                                <td>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="pay_account[litecoin][Wallet address]" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Your Litecoin payment Wallet address">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                                    <input type=password name=password value="" class=inpts size=30 placeholder="Define Password" required>
+                                        <tr>
+                                            <td><span class="user">
+                                                <input type="text" name="pay_account[eth][Wallet address]" value='' class="inpts" size="30" autofocus="autofocus" placeholder="Your Ethereum payment Wallet address">
+                                                </span>
+                                            </td>
+                                        </tr>
 
-                                                </td>
+                                        <tr>
+                                            <td align="left">
+                                                <div class="iagree"><input type=checkbox name=agree value=1> I agree with <a href="?a=rules">Terms and conditions</a></div>
+                                            </td>
+                                         </tr>
 
-                                            </tr>
-
-                                            <tr>
-
-                                                <td>
-
-                                                    <input type=password name=password2 value="" class=inpts size=30 placeholder="Retype Password" required>
-
-                                                </td>
-
-                                            </tr>
-
-
-
-
-
-
-                                            <tr>
-                                                <td>
-                                                    <input type=text name=email value="" class=inpts size=30 placeholder="Your E-mail Address" required></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <input type=text name=email1 value="" class=inpts size=30 placeholder="Retype Your E-mail" required></td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>
-                                                    <input type=text name=sq value="" class=inpts size=30 placeholder="Secret Question" required></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <input type=text name=sa value="" class=inpts size=30 placeholder="Secret Answer" required></td>
-                                            </tr>
-
-
-                                            <tr>
-
-                                                <td><input type=text class=inpts size=30 name="pay_account[btc][Wallet address]" value="" placeholder="Your Bitcoin payment Wallet address"></td>
-                                            </tr>
-
-                                            <tr>
-
-                                                <td><input type=text class=inpts size=30 name="pay_account[usdt][Wallet Address]" value="" placeholder="Your USDT Payment Wallet Address"></td>
-                                            </tr>
-
-                                            <tr>
-
-                                                <td><input type=text class=inpts size=30 name="pay_account[litecoin][Wallet Address]" value="" placeholder="Your Litecoin Wallet Address"></td>
-                                            </tr>
-
-                                            <tr>
-
-                                                <td><input type=text class=inpts size=30 name="pay_account[dogecoin][Wallet Address]" value="" placeholder="Your Dogecoin Wallet Address"></td>
-                                            </tr>
-
-                                            <tr>
-
-                                                <td><input type=text class=inpts size=30 name="pay_account[eth][Wallet Address]" value="" placeholder="Your Ethereum Wallet Address"></td>
-                                            </tr>
-
-
-
-                                            <tr>
-                                                <td>
-                                                    <input type=text name=sa value="Upline: N/A (n/a) " disabled class=inpts size=30></td>
-                                            </tr>
-
-                                            <tr>
-                                                <td align="left">
-                                                    <div class="iagree"><input type=checkbox name=agree value=1> I agree with <a href="?a=rules">Terms and conditions</a></div>
-                                                </td>
-                                            </tr>
-
-
-
-                                            <tr>
-                                               <a href=""><td><span class="bunicon"><input type=submit value="Register" class=sbmt></span></td></a> 
-                                            </tr>
-                                        </table>
-                                    </div>
+                                        <tr>
+                                            <td><a href=""><input type=submit value="Login" class=sbmt></td></a>
+                                        </tr>
+                                    </table>
                                 </form>
+
                             </div>
-
-                            <div class="loginbottom"><a href="/login-page/index.html" class="existinguser">Existing User? Login</a><a href="/?a=forgot_password" class="getstarted">Retrive Password?</a></div>
+                            <div class="loginbottom"><a href="/?a=forgot_password" class="retrivepw">Retrive Password?</a><a href="/sign-up/index.html" class="newsignup">New User? Signup</a></div>
                         </div>
+                        
                     </div>
+                    
+                    <div class="col-lg-6 col-md-12">
+                        <div class="loginright"><img src="./styles/images/registerediconbottom.png" alt=""></div>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="loginfooter">&copy; 2019 ALLGLOBALTRADE ALL RIGHTS RESERVED.</div>
+        <div class="loginfooter">&copy; 2019 ALLGLOBALTRADE ALL RIGHTS RESERVED.</div>
     </div>
 </body>
 
