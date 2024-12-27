@@ -1,0 +1,1939 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #163f59;
+	background: #edf4fc url(images/curve1.jpg) no-repeat center top;
+	padding: 0;
+	margin: 0;
+	font: 500 14px/22px 'Montserrat', sans-serif;
+}
+p {
+	text-align: justify;
+	margin: 0 0 20px
+}
+a {
+	color: #163f59;
+	outline: none;
+	text-decoration: none
+}
+a:hover, a:active, a:focus {
+	color: #febf32;
+	text-decoration: none;
+	outline: none
+}
+
+h5 {
+	line-height:24px;
+}
+
+img {
+	max-width: 100%
+}
+label {
+	font-weight: 400
+}
+input[type="text"], input[type="password"], input[type="email"] {
+	color: #15046f;
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #bbb;
+	padding: 0 15px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+textarea {
+	color: #15046f;
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	border: 1px solid #bbb;
+	padding: 10px;
+	border-radius: 4px;
+	resize: none;
+	font-size: 14px;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+	border: 1px solid #fcc40f
+}
+input[type="submit"], input[type="button"] {
+	background: #febf32;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	text-transform: uppercase;
+	line-height: 40px;
+	border-radius: 50px;
+	display: inline-block;
+	padding: 0 40px;
+	font-weight: 600;
+}
+input[type="submit"]:hover, input[type="button"]:hover {
+	color: #fff;
+	background: #163f59
+}
+select {
+	color: #15046f;
+	font-size: 14px;
+	border: 1px solid #bbb;
+	border-radius: 4px;
+	width: auto;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(images/select_arrow.png) no-repeat right 10px center #fff;
+	padding: 7px 20px 7px 10px
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+.wrapper, .header_wrap, .investmentwrap, .howitworks, .certificatewrap, .aboutwrap, .footerwrap, .statwrap, .inside_wrap {
+	width: 100%;
+	float: left;
+}
+.header_wrap {
+	background: url(images/curve1.jpg) no-repeat top center;
+}
+.logowrap {
+	padding: 20px 0 0 0;
+	width: 100%;
+	float: left;
+}
+.logo {
+}
+.loginbox {
+	text-align: right;
+}
+.login {
+	background: #3d7aa8;
+	color: #fff
+}
+.login:hover {
+	background: #f99b0f;
+	color: #fff;
+}
+.login:hover a, .register:hover a {
+	color: #fff;
+}
+.register {
+	color: #3bb6d5;
+	background: #fff;
+}
+.register:hover {
+	background: #3d7aa8;
+	color: #fff
+}
+.loginbox a {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0 25px;
+	line-height: 38px;
+	border-radius: 40px;
+	display: inline-block;
+	margin: 0 0 0 5px;
+}
+.navbar-nav {
+	float: right;
+	padding: 10px 0 0 0;
+	width: 100%;
+	text-align: right;
+}
+.navbar-nav > li {
+	float: none;
+	display: inline-block;
+}
+.navbar-nav > li > a {
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight:600;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	text-decoration: none;
+	background-color: #febf32;
+	color: #fff;
+	border-radius: 40px;
+}
+.banner {
+	width: 100%;
+	float: left;
+	padding: 80px 0 40px 0;
+}
+.bannerinfo {
+	width: 100%;
+	float: left;
+}
+.bannerinfo h1 {
+	color: #fff;
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -0.05em;
+	font-weight: 700;
+	margin: 0 0 25px;
+}
+.bannerinfo p {
+	color: #fff;
+	font-size: 28px;
+	text-align: left;
+	font-weight: 300;
+	margin: 0 0 30px;
+}
+.bannerinfo p span {
+	font-weight: 700
+}
+.bannerinfo a {
+	border: 2px solid #fff;
+	border-radius: 2px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 44px;
+	display: inline-block;
+	padding: 0 30px;
+	margin: 0 0 20px;
+	color: #fff
+}
+.bannerinfo a:hover {
+	color: #fff;
+}
+.bannerinfo ul {
+	width: 100%;
+	float: left;
+}
+.bannerinfo ul li {
+	background: #3d7aa8;
+	padding: 5px 5px 5px 30px;
+	border-radius: 40px;
+	line-height: 44px;
+	margin: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.bannerinfo ul li span {
+	height: 44px;
+	line-height: 44px;
+	border-radius: 50%;
+	float: right;
+	background: #fff;
+	color: #f99b0f;
+	font-size: 30px;
+	font-weight: 700;
+	display: block;
+	width: 44px;
+	text-align: center;
+}
+.bannerthumb {
+	width: 100%;
+	float: left;
+}
+.investmentwrap {
+	background: #edf4fc url(images/curve2.png) no-repeat top center;
+	    padding-top: 40px;
+}
+.investmentwrap .icon, .howitworks .icon {
+	width: 100%;
+	text-align: center;
+	padding: 0 0 20px;
+}
+.investmentwrap h2, .howitworks h2 {
+	margin: 0 0 40px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: -0.05em;
+	color: #163f59;
+	line-height: 60px;
+}
+.investmentwrap h2 span, .howitworks h2 span {
+	font-weight: 700
+}
+.investmentbox {
+	box-shadow: 0 0 10px #0003;
+	border-radius: 8px;
+	padding: 15px 15px 25px;
+	background: url(images/plantopcurve.png) no-repeat top center #fff;
+	overflow: hidden;
+	position: relative
+}
+.investmentbox .value {
+	text-align: center;
+	padding: 15px 0;
+	font-size: 82px;
+	font-weight: 800;
+	color: #fff;
+	line-height: 52px;
+}
+.investmentbox .value span {
+	font-size: 50px;
+}
+.investmentbox .days {
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0 0 15px;
+}
+.investmentbox ul, .investmentboxdown .right ul {
+	width: 100%;
+	float: left;
+	margin: 0 0 25px;
+}
+.investmentbox ul li {
+	line-height: 50px;
+	padding: 0 10px 0 50px;
+	font-weight: 600;
+	color: #163f59;
+	background: url(images/bluetick.png) no-repeat left 15px center #e4eef3;
+}
+.investmentbox ul li span {
+	color: #f99b0f;
+	text-transform: uppercase
+}
+.investmentbox ul li:nth-child(even) {
+	background-color: #f1f6f9;
+}
+.investmentbox .action, .investmentboxdown .action {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.investmentbox .action a, .investmentboxdown .action a {
+	background: #ffab01 url(images/calculatoricon.png) no-repeat left 25px center;
+	border-radius: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline-block;
+	padding: 0 30px 0 65px;
+	color: #fff
+}
+.investmentbox .action a:hover, .investmentboxdown .action a:hover {
+	background-color: #3d7aa8;
+	color: #fff;
+}
+.investmentboxdown {
+	margin: 30px 0 0 0;
+	background: #fff;
+	box-shadow: 0 0 10px #0003;
+	border-radius: 8px;
+	padding: 15px;
+	overflow: hidden;
+	position: relative
+}
+.investmentboxdown .left {
+	width: 45%;
+	float: left;
+	padding: 30px 0;
+}
+.investmentboxdown .left .value {
+	font-size: 82px;
+	line-height: 52px;
+	font-weight: 800;
+	width: 100%;
+	color: #3d7aa8;
+}
+.investmentboxdown .left .days {
+	font-size: 24px;
+	color: #9db2bf;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 10px 0 0 0;
+}
+.investmentboxdown .left .value span {
+	font-size: 50px;
+}
+.investmentboxdown .right {
+	width: 55%;
+	float: left;
+}
+.investmentboxdown .right ul li {
+	line-height: 50px;
+	padding: 0 10px 0 50px;
+	font-weight: 600;
+	color: #163f59;
+	background: url(images/bluetick.png) no-repeat left 15px center #e4eef3;
+}
+.investmentboxdown .right ul li span {
+	color: #f99b0f;
+}
+.investmentboxdown .right ul li:nth-child(2n) {
+	background-color: #f1f6f9;
+}
+.howitworks {
+	background: #edf4fc;
+	padding: 40px 0 0 0;
+}
+.howitworksbox {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px;
+}
+.howitworksbox .left {
+	width: 30%;
+	float: left;
+	background: #3bb6d5;
+	border-radius: 50%;
+	height: 165px;
+	box-shadow: 4px 5px 0px #d7e3ea;
+	min-width: 165px;
+	text-align: center;
+	max-width: 165px;
+}
+.howitworksbox .right {
+	width: 60%;
+	float: left;
+	padding: 25px 0 25px 30px;
+}
+.howitworksbox .right h3 {
+	font-weight: 700;
+	color: #3d7aa8;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0 0 15px;
+}
+.howitworksbox .right p {
+	margin: 0;
+	font-size: 15px;
+	line-height: 22px;
+	color: #163f59;
+	text-align: left;
+}
+.certificatewrap {
+    background: url(images/curve3.jpg) repeat top center #27474f;
+    padding: 0 0 60px;
+    text-align: center;
+
+}
+
+
+.inside_wrap.about h2 {
+	
+}
+
+.certificate {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #0003;
+}
+.certificateleft {
+	width: 100%;
+	float: left;
+	padding: 80px 0 0 0;
+}
+.certificateright {
+	width: 50%;
+	float: left;
+	padding: 80px 0 0 0;
+}
+.certificateright .trading {
+	background: #febf32;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 67px;
+	margin: 8px 0;
+	border-radius: 0 50px 50px 0;
+	text-align: center;
+}
+.certificateright .tradingicon {
+	width: 100%;
+	float: left;
+}
+.registerwrap {
+	width: 100%;
+	float: left;
+	padding: 160px 0 0 0;
+}
+.regaddress {
+	width: 100%;
+	float: left;
+	padding: 0 0 20px;
+}
+.registerwrap .left {
+	width: 23%;
+	float: left;
+	max-width: 102px;
+}
+.registerwrap .right {
+	width: 77%;
+	float: left;
+	padding: 0 0 0 30px;
+	color: #fff;
+}
+.registerwrap .right h3 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 10px 0 15px;
+	text-align: left;
+}
+.registerwrap .right p {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+	margin: 0
+}
+.registerwrap .right p.email, .registerwrap .right p.phone {
+	padding: 0 0 0 30px;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0 0 10px;
+}
+.registerwrap .right p.email {
+	background: url(images/regemail.png) no-repeat left center;
+}
+.registerwrap .right p.phone {
+	background: url(images/regphone.png) no-repeat left center;
+}
+.macfree {
+	width: 100%;
+	float: left;
+	padding: 0 0 0 132px;
+	text-align: left
+}
+.macfree span {
+	display: block;
+}
+.macfree a {
+	color: #fff;
+	background: #3bb6d5;
+	border-radius: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0 25px;
+	margin: 0 0 0 68px;
+}
+.macfree a:hover {
+	background: #febf32;
+	color: #fff;
+}
+.aboutwrap {
+	background: url(images/curve4.png) no-repeat bottom center #27474f;
+	padding: 40px 0 10px 0;
+}
+.aboutbitek {
+	width: 100%;
+	float: left;
+	color: #fff;
+}
+.aboutbitek .icon {
+	text-align: center;
+	padding: 0 0 20px;
+}
+.aboutbitek h2 {
+	margin: 0 0 25px;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-align: center;
+}
+.aboutbitek h2 span {
+	font-weight: 700
+}
+.aboutbitek p {
+}
+.affiliatebox {
+	width: 100%;
+	float: left;
+	color: #fff;
+}
+.affiliatebox h3 {
+	text-align: center;
+	margin: 0 0 20px;
+	font-size: 36px;
+}
+.affiliatebox h3 span {
+	font-weight: 700
+}
+.affbox {
+	margin: 0 0 15px;
+	border-radius: 12px;
+	width: 100%;
+	float: left;
+}
+.affbox.one {
+	background: #163f59;
+}
+.affbox.two {
+	background: #3d7aa8;
+}
+.affbox.three {
+	background: #127891;
+}
+.affbox .left {
+	background: url(images/affiliateyellowcurve.png) no-repeat right center;
+	font-size: 72px;
+	line-height: 113px;
+	color: #194866;
+	font-weight: 700;
+	width: 38%;
+	float: left;
+	text-align: center;
+	border-radius: 10px 0 0 10px;
+}
+.affbox .left span {
+	font-size: 60px;
+	font-weight: 500
+}
+.affbox .right {
+	float: left;
+	width: 62%;
+	text-align: center;
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 400;
+	padding: 20px 0;
+}
+.affbox .right span {
+	font-weight: 700;
+	display: block;
+}
+.topten {
+	background: #fff;
+	box-shadow: 0 0 10px #0003;
+	padding: 18px;
+	border-radius: 10px;
+	width: 100%;
+	float: left;
+	margin: 30px 0 0 0;
+	min-height: 200px;
+}
+.topten .heading {
+	padding: 5px 10px 10px 20px;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 45px;
+}
+.topten .heading strong {
+	font-weight: 700
+}
+.topten .heading span {
+	float: right;
+}
+.lastdep .heading {
+	background: #3d7aa8;
+}
+.lastwith .heading {
+	background: #163f59;
+}
+.topten .info {
+	width: 100%;
+	float: left;
+	padding: 10px
+}
+.topten .info ul {
+	border-bottom: 1px solid #bdd3e3;
+	font-size: 14px;
+	color: #163f59;
+	font-weight: 300;
+	width: 100%;
+	float: left;
+}
+.topten .info ul:last-child {
+	border: none
+}
+.topten .info ul li {
+	float: left;
+	padding: 7px 3px;
+	line-height: 28px;
+}
+
+
+
+
+
+
+   .size-stat {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width:155px;   
+   }
+
+
+
+.topten .info ul li:first-child {
+	width: 190px
+}
+.topten .info ul li:nth-child(2n) {
+	width: 31%
+}
+.topten .info ul li:nth-child(3n) {
+	width: 20%
+}
+.topten .info ul li:last-child {
+	text-align: right;
+	width: 10%
+}
+
+
+
+
+
+@media screen and (max-width: 569px) {
+
+
+.topten .info ul li:first-child {
+	width: 100%
+}
+.topten .info ul li:nth-child(2n) {
+	width: 50%
+}
+.topten .info ul li:nth-child(3n) {
+	width: 30%
+}
+.topten .info ul li:last-child {
+	text-align: right;
+	width: 20%
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+.statwrap {
+	background: #edf4fc;
+	padding: 60px 0 0;
+	text-align: center;
+}
+.statboxwrap {
+	background: #27474f;
+	border-radius: 10px;
+	text-align: center;
+	color: #fff;
+	padding: 0 50px;
+	width: 100%;
+	float: left;
+}
+.statbox {
+	width: 20%;
+	float: left;
+	padding: 0 0 20px;
+}
+.statbox .icon {
+	display: block;
+	margin: -40px 0 0;
+	padding: 0 0 10px;
+}
+.statbox h4 {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0 0 10px;
+}
+.statbox p {
+	margin: 0;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center
+}
+.paymentlogos {
+	padding: 30px 0;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.paymentlogos span {
+	display: inline-block;
+	padding: 0 15px;
+}
+.footerwrap {
+	background: url(images/footerbackground.png) no-repeat top center #194866;
+	padding: 40px 0;
+	width: 100%;
+	float: left;
+	color: #fff;
+}
+.footerwrap p {
+	text-align: left;
+}
+.footerwrap ul {
+	padding: 20px 0 0 0;
+}
+.footerwrap ul li {
+}
+.footerwrap ul li a {
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 30px;
+	display: block;
+	color: #fff;
+}
+.footerwrap ul li a:hover {
+	color: #febf32;
+}
+.footeraddress {
+	width: 100%;
+	float: left;
+	padding: 20px 0 0 50px;
+	background: url(images/footerlocation.png) no-repeat left top 20px
+}
+.footeraddress h4 {
+	color: #ffd769;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+.footeraddress p {
+}
+.footersocial {
+}
+.twitter, .telegram {
+	padding: 0 0 0 40px;
+	line-height: 32px;
+	display: inline-block;
+	margin: 0 15px 0 0
+}
+.twitter {
+	background: url(images/footertwitter.png) no-repeat left center;
+}
+.telegram {
+	background: url(images/footertelegram.png) no-repeat left center
+}
+.twitter a, .telegram a {
+	text-transform: uppercase;
+	color: #fff;
+}
+.header_wrap.inside {
+	background: rgb(47,138,168);
+	background: linear-gradient(45deg, rgb(47, 138, 168) 0%, rgb(73, 168, 199) 100%);
+}
+.header_wrap.inside .banner {
+	padding: 40px 0
+}
+.header_wrap.inside h1 {
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+.inside_wrap {
+	padding: 40px 0;
+	background: #edf4fc url(images/curve2.png) no-repeat top center;
+	min-height: 550px;
+}
+.inside_wrap.about {
+	padding-bottom: 0px;
+}
+.inside_wrap.howto {
+	padding-bottom: 220px;
+	min-height: auto;
+}
+.inside_wrap.affiliatepage {
+	padding-bottom: 100px;
+}
+.inside_wrap.faq, .inside_wrap.rulewrap {
+	padding-bottom: 20px;
+}
+.inside_wrap.support {
+	min-height: auto;
+	background: #edf4fc;
+}
+.howto h3 {
+	margin: 0 0 10px;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: -0.05em;
+	color: #163f59;
+	line-height: 60px;
+}
+.wheretobuy-list ul li {
+	float: left;
+	width: 25%;
+	padding: 0 0 0 30px;
+	line-height: 40px;
+	background: url(images/wheretotick.png) no-repeat left center;
+}
+.wheretobuy-list ul li a {
+	display: block;
+	font-weight: 600;
+	font-size: 15px;
+}
+.ref_wrap {
+	width: 100%;
+	float: left;
+	background: #edf4fc;
+	color: #194866;
+	padding: 85px 0 45px 0;
+}
+.ref_wrap h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+	font-size: 26px;
+	color: #194866
+}
+.ref_wrap p {
+	font-size: 15px;
+	line-height: 26px;
+	margin: 0
+}
+.ref_wrap a {
+	background: #febf32;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 60px;
+	border-radius: 50px;
+	text-align: center;
+	display: block;
+	margin: 40px 0 0 0;
+}
+.ref_wrap a:hover {
+	background: #163f59;
+	color: #fff;
+}
+.affiliatepage h4 {
+	font-size: 22px;
+	font-weight: 600;
+	margin: 0 0 20px;
+}
+.affilist li {
+	line-height: 24px;
+	padding: 3px 0 3px 40px;
+	background: url(images/wheretotick.png) no-repeat left top 4px;
+}
+.inside_wrap.affiliatepage .affiliatebox h3 {
+	display: none;
+}
+.faq .nav-tabs, .aff-banners .nav-tabs {
+	border-bottom: none;
+	background: #3d7aa8;
+	border-radius: 10px;
+	margin: 0 0 25px;
+	padding: 10px;
+	text-align: center;
+}
+.faq .nav-tabs > li, .aff-banners .nav-tabs > li {
+	float: none;
+	margin-bottom: 0;
+	display: inline-block;
+}
+.aff-banners .nav-tabs > li {
+	width: 100%;
+	margin: 2px 0;
+	text-align: left;
+}
+.faq .nav-tabs > li > a, .aff-banners .nav-tabs > li > a {
+	border: none;
+	border-radius: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 8px 50px;
+	margin: 0;
+}
+.faq .nav-tabs > li.active > a, .faq .nav-tabs > li.active > a:focus, .faq .nav-tabs > li.active > a:hover, .aff-banners .nav-tabs > li.active > a, .aff-banners .nav-tabs > li.active > a:focus, .aff-banners .nav-tabs > li.active > a:hover {
+	color: #fff;
+	background-color: #febf32 !important;
+	border: none;
+}
+.faq .panel-default > .panel-heading {
+	color: #3d7aa8;
+	background-color: #fff;
+	border-color: #eeeded;
+	padding: 0;
+}
+.faq .panel-title {
+	font-size: 15px;
+}
+.faq .panel-title a {
+	display: block;
+	padding: 15px 15px 15px 55px;
+	background: url(images/round-add-button.png) no-repeat left 10px top 15px;
+}
+.aff-banners .tab-pane {
+	background: red;
+	background: #edf4fc;
+	border-radius: 6px;
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+.paidout_top {
+	padding: 15px 15px 10px;
+	background: #3d7aa8;
+	border-radius: 6px;
+	width: 100%;
+	float: left;
+}
+.paidoutblock {
+	padding: 0 0 10px;
+}
+.paidout_top select, .paidout_top .sbmt {
+	width: 100%
+}
+.paidout_top .sbmt:hover {
+	background: #fff;
+	color: #163f59
+}
+.paidout_mid {
+	background: #edf4fc;
+	border-radius: 6px;
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+.paidout_mid table, .my_accont table {
+	background: #fff;
+	width: 100%;
+}
+.paidout_mid td, .my_accont table td {
+	padding: 8px;
+	border-bottom: 1px solid #ececec;
+	text-align: left;
+}
+
+.my_accont table th {
+
+	border-bottom:1px solid #ececec;
+}
+
+.qr-copy {
+    outline: 0;
+    border: none;
+       background: #3d7aa8;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 36px;
+    font-size: 13px;
+    position: relative;
+    top: -89px;
+}
+
+
+.paidout_mid tr:nth-child(even), .my_accont table tr:nth-child(even) {
+	background: #f8f8f8
+}
+.paidout_mid td.inheader, .my_accont table td.inheader {
+	color: #409ebd;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 1px solid #409ebd;
+}
+.inside_wrap.support h2, .form-content h2, .howto h3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+.inside_wrap.support p {
+	margin: 0
+}
+.form-content {
+	text-align: left;
+	background: #fff;
+	padding: 30px 25px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #0003;
+}
+.rules {
+	background: #fff9;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #0003;
+	overflow: hidden;
+}
+.rules h4 {
+	font-weight: 700;
+	margin: 0 0 15px;
+	text-transform: uppercase;
+}
+.rules ul {
+	width: 100%;
+	float: left;
+	padding: 0 0 25px;
+}
+.rules ul li {
+	line-height: 30px;
+}
+.loginheader, .login_redirect {
+	background: url(images/curve3.png) no-repeat top center #3d7aa8;
+	padding: 50px 0 127px;
+	text-align: left;
+}
+.loginwrap {
+	width: 100%;
+	float: left;
+	background: url(images/loginbottomcurve.png) no-repeat bottom center #3d7aa8;
+	color: #fff;
+	padding: 0 0 120px;
+	min-height: 400px;
+	margin: -90px 0 0 0;
+}
+.loginwrap.signuppage {
+	margin-top: 0px;
+}
+.loginlogo {
+	text-align: center;
+}
+.loginfooter {
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	background: #edf4fc;
+	padding: 0 0 15px;
+	color: #3d7aa8;
+}
+.loginleft h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+	font-weight: 600;
+	color: #295683;
+}
+.loginleft table td {
+	padding: 8px 0
+}
+.loginright {
+	text-align: right;
+	width: 100%;
+	float: right;
+}
+.loginleft {
+	background: #fff;
+	border-radius: 6px;
+	padding: 30px 20px 10px 20px;
+	box-shadow: 0 0 10px #0003;
+	width: 100%;
+	float: left;
+}
+.loginbottom {
+	border-top: 2px solid #3d7aa8;
+	margin: 15px 0 0 0;
+	padding: 10px 0 0 0;
+	width: 100%;
+	float: left;
+}
+.loginbottom a {
+	color: #3d7aa8;
+	padding: 0 0 0 40px;
+	line-height: 40px;
+	margin: 0 15px 0 0;
+	display: inline-block;
+}
+.loginbottom a:hover {
+	color: #febf32;
+}
+.loginbottom a.existinguser {
+	background: url(images/existinguser.png) no-repeat left center;
+}
+.loginbottom a.retrivepw {
+	background: url(images/retrivepw.png) no-repeat left center;
+}
+.loginbottom a.newsignup {
+	background: url(images/newsignup.png) no-repeat left center;
+}
+.iagree {
+	width: 100%;
+	float: left;
+	background: #3d7aa8;
+	padding: 10px;
+}
+.iagree a {
+	color: #fff;
+}
+.iagree a:hover {
+	color: #febf32;
+}
+.logo-container {
+	background: #fff;
+	max-width: 500px;
+	margin: 20px auto;
+	padding: 25px;
+	border-radius: 6px;
+	box-shadow: 0 0 10px #0003;
+}
+.logo-container h3 {
+	color: #3d7aa8;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.inside_wrap.myaccount {
+	padding-top: 0;
+}
+.membersidebar {
+	width: 100%;
+	float: left;
+	background: #f6a500;
+	padding: 25px 0;
+}
+.membersidebar ul {
+}
+.membersidebar ul li {
+	width: 33.33%;
+	float: left;
+	padding: 0 0 0 40px;
+}
+.membersidebar ul li.one {
+	background: url(images/accountleft1.png) no-repeat left center
+}
+.membersidebar ul li.two {
+	background: url(images/accountleft2.png) no-repeat left center
+}
+.membersidebar ul li.three {
+	background: url(images/accountleft3.png) no-repeat left center
+}
+.membersidebar ul li.four {
+	background: url(images/accountleft4.png) no-repeat left center
+}
+.membersidebar ul li.five {
+	background: url(images/accountleft5.png) no-repeat left center
+}
+.membersidebar ul li.six {
+	background: url(images/accountleft6.png) no-repeat left center
+}
+.membersidebar ul li.seven {
+	background: url(images/accountleft7.png) no-repeat left center
+}
+.membersidebar ul li.eight {
+	background: url(images/accountleft8.png) no-repeat left center
+}
+.membersidebar ul li.nine {
+	background: url(images/accountleft9.png) no-repeat left center
+}
+.membersidebar ul li a {
+	line-height: 28px;
+	font-weight: 600;
+    background-color: #FFCB54;
+    
+    margin: 3px 6px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2f465f;
+    font-size: 13px;
+    display: block;
+}
+
+.membersidebar ul li a:hover {
+	color:#edf4fc;
+	background-color: #3d7aa8
+}
+
+.welcome, .regdate {
+	padding: 14px 0 14px 80px;
+	width: 100%;
+	float: left;
+}
+.welcome {
+	background: url(images/welcomeicon.png) no-repeat left center
+}
+.regdate {
+	background: url(images/regdateicon.png) no-repeat left center
+}
+.welcome h2, .regdate h2 {
+	margin: 0;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	line-height: 28px;
+}
+.welcome h2 span, .regdate h2 span {
+display: block;
+    font-size: 18px;
+}
+.member-container {
+	width: 100%;
+	float: left;
+	padding: 40px 0 0;
+}
+.balance {
+	box-shadow: 0 0 10px #0003;
+	border-radius: 8px;
+	padding: 10px 15px 25px;
+	background: url(images/plantopcurve.png) no-repeat top -40px center #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.balance .icon {
+	width: 148px;
+	height: 148px;
+	display: inline-block;
+	background: #f9f9f9;
+	border-radius: 50%;
+	box-shadow: 4px 4px 0 #c5d2d9;
+	padding: 20px;
+}
+.balance p {
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 10px 0 20px 0;
+	font-size: 14px;
+}
+
+.authenticator h2 {
+    background: #3d7aa8;
+    padding: 5px 10px 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 45px;
+    margin-top: 0px;
+}
+
+.authenticator span {
+	font-weight: 700;
+}
+
+.authenticator p {
+    margin: 5px 0 10px;
+    
+    }
+
+.authenticator  input[type="text"] {
+	margin-bottom:15px;
+}
+
+.payment-form, .payment-image {
+    text-align: center;
+    padding: 10px 0px 5px;
+}
+
+.btc_form i a {
+    display: block;
+    background: #fff;
+    color: #46a4c3;
+    max-width: 425px;
+    margin: 5px auto 45px auto;
+    padding: 9px 15px;
+    border-radius: 4px;
+    word-break: break-all;
+    font-size: 16px;
+    border: 1px solid #71b1d8;
+}
+
+.aff-ctPart5-row1 {
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.balance h3 {
+	margin: 40px 0 0 0;
+	color: #3d7aa8;
+	font-weight: 600;
+	font-size: 20px;
+}
+.balance a {
+	background: #ffab01;
+	border-radius: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline-block;
+	color: #fff;
+	width: 220px;
+	margin: 15px 0 0 0;
+}
+.balance a:hover {
+	background-color: #3d7aa8;
+	color: #fff;
+}
+.detailed-stats {
+	width: 100%;
+	float: left;
+}
+.topten .info2 {
+	padding: 15px 0 0;
+	width: 100%;
+	float: left;
+}
+.topten .info2 ul li {
+	background: #e4eef3;
+	border-bottom: 1px solid #fff;
+	line-height: 40px;
+	padding: 0 15px;
+	width: 100%;
+	float: left;
+}
+.topten .info2 ul li span {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.topten .info2 ul li strong {
+	float: right;
+	color: #f99b0f;
+}
+.topten .info2 ul li:nth-child(even) {
+	background: #f1f6f9
+}
+.my_accont {
+	background: #fff;
+	box-shadow: 0 0 10px #0003;
+	padding: 20px;
+	border-radius: 8px;
+}
+.depositactive {
+	background: #f8f8f8;
+	padding: 15px;
+	border: 1px solid #ececec;
+}
+.payment-processor {
+    background: #419fbe;
+    padding: 10px 15px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align:center;
+}
+
+
+.payment-processor input[type=radio] {
+    margin: 0px 5px;
+    margin-top: 1px\9;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.my_accont, .account_deposit, .detailed-stats-box {
+	width: 100%;
+	float: left;
+	margin: 0 0 30px;
+}
+
+.my_accont5 {
+	background: #fff;
+	box-shadow: 0 0 10px #0003;
+	padding: 2px;
+	border-radius: 8px;
+	width: 100%;
+	float: left;
+	margin: 0 0 30px;
+}
+
+.alert {
+	text-align: center;
+	margin: 0
+}
+.detailed-stats-box {
+	background: #328dab;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #0003;
+}
+.detailed-stats-box span {
+	width: 48px;
+	height: 48px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+.detailed-stats-box p {
+	margin: 0;
+	line-height: 48px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	float: left;
+}
+.detailed-stats-box h3 {
+	margin: 0;
+	float: right;
+	line-height: 48px;
+	font-weight: 700;
+	color: #febf32;
+	font-size: 26px;
+}
+.my_accont h2.section-title, h3.refheader {
+	font-size: 22px;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.referalwrap {
+	width: 100%;
+	float: left;
+	ackground: rgb(47,138,168);
+	background: linear-gradient(45deg, rgb(47, 138, 168) 0%, rgb(73, 168, 199) 100%);
+	padding: 0 0 20px;
+}
+#copyButton {
+    background: #edf4fc url(images/copy.png) no-repeat left 15px center;
+    border-radius: 50px 0 0 50px;
+    float: left;
+    border: none;
+    line-height: 48px;
+    width: 10%;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+#copyTarget {
+	line-height: 40px;
+	height: 50px;
+	border: none;
+	width: 78%;
+	float: left;
+	    padding-left: 20px;
+}
+.getban {
+	width: 12%;
+	float: left;
+	background: #febf32;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 0 50px 50px 0;
+}
+.getban a, .getban a:hover {
+	color: #fff;
+	display:block;
+}
+.referalwrap .col-lg12 {
+	position: relative
+}
+
+.calculatorresult input[type="text"] {
+	border: 1px solid #296a9a;
+}
+
+
+#msg {
+	position: absolute;
+	right: 14%;
+	color: green;
+	top: 15px;
+}
+.modal-header {
+	text-align: center;
+}
+.close {
+	float: none;
+	font-size: 40px;
+	color: #fff;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+.modal-body, .modal-footer {
+	text-align: center;
+}
+.modal-content {
+	background-color: #3d7aa8;
+	color: #fff;
+}
+.modal-header h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 10px 0 0 0;
+}
+.modal-footer .btn-default {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #FFAB01;
+    border: 0px;
+}
+.calculatorresult {
+	margin: 0 0 10px;
+	text-align: left;
+}
+.calculatorresult label {
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+}
+.calculatorresult span {
+	color: #f99b0f;
+	font-weight: 600;
+	float: right;
+}
+.investmentbox .radio, .investmentboxdown .radio {
+    font-weight: 600;
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    margin: 0 0 0 -80px;
+    padding: 0;
+    cursor: pointer;
+    line-height: 40px;
+    border-radius: 50px;
+    background: #3d7aa8;
+    color: #fff;
+    z-index: 9999;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.payment-balance {
+	text-align:center;
+}
+
+.payment-balance strong {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #419FBE;
+}
+
+.payment-balance p {
+		text-align:center;
+}
+
+.investmentbox input[type=radio], .investmentboxdown input[type=radio] {
+	display: none
+}
+.investmentbox input[type="radio"]:checked + .radio, .investmentboxdown input[type=radio]:checked + .radio {
+	background: #febf32;
+	color: #fff;
+}
+.account_deposit .investmentbox {
+	padding-bottom: 45px
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+.investmentboxdown .left {
+	width: 38%;
+}
+.investmentboxdown .right {
+	width: 62%;
+}
+.investmentboxdown .left .value, .investmentboxdown .left .value {
+	font-size: 52px;
+}
+.investmentboxdown .left .days {
+	font-size: 18px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+}
+@media screen and (min-width: 1025px) {
+}
+@media screen and (max-width: 1024px) {
+.membersidebar ul li {
+	padding: 2px 0 2px 40px;
+}
+#copyButton {
+	width: 12%;
+}
+.getban {
+	width: 16%;
+}
+#copyTarget {
+	width: 72%;
+}
+.nav > li > a {
+	padding: 0px 5px;
+}
+.certificateleft, .registerwrap {
+	padding-top: 20px;
+}
+.nav > li > a {
+	padding: 10px 12px;
+}
+.banner {
+	padding: 40px 0;
+}
+.bannerinfo h1 {
+	font-size: 45px;
+	line-height: 50px;
+	margin: 0 0 15px;
+}
+.investmentwrap h2, .howitworks h2 {
+	margin: 0 0 20px;
+	font-size: 50px;
+	line-height: 50px;
+}
+.howitworksbox .right {
+	padding: 15px 0 15px 30px;
+}
+}
+ @media screen and (max-width: 812px) {
+.header_wrap.inside {
+	margin: 0;
+}
+.balance {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #fff
+}
+.balance h3 {
+	margin: 0;
+}
+.balance p {
+	color: #3d7aa8;
+}
+.ref_wrap {
+	padding: 25px 0 45px 0;
+	text-align: center;
+}
+.header_wrap.inside .banner {
+	padding: 20px 0;
+}
+.inside_wrap.about, .inside_wrap.howto, .inside_wrap.affiliatepage {
+	padding-bottom: 0;
+}
+.wheretobuy-list ul li {
+	width: 33.33%;
+}
+.header_wrap.inside h1 {
+	text-align: center;
+}
+.loginbox, .logowrap {
+	padding: 10px 0 0 0
+}
+.statboxwrap {
+	padding: 0;
+}
+.logo, .loginbox, .navbar-nav {
+	text-align: center;
+}
+.nav > li > a {
+	padding: 0px 12px;
+	text-transform: uppercase;
+}
+.header_wrap {
+background-color:#27474f;
+	margin-bottom: 10px;
+}
+.bannerinfo h1 br {
+	display: none
+}
+.investmentbox {
+	background: #fff;
+	margin: 20px 0;
+}
+.investmentboxdown,.topten{margin-top:20px}
+.investmentbox .value {
+	color: #3d7aa8;
+}
+.investmentbox .days {
+	color: #9db2bf;
+}
+}
+ @media screen and (max-width:767px) {
+.navbar-nav {
+	margin-left: 0;
+	margin-right: 0;
+}
+#copyButton {
+	width: 20%;
+}
+#copyTarget {
+	width: 80%;
+	border-radius: 0 50px 50px 0;
+	padding:0 15px;
+}
+.getban {
+	width: 100%;
+	border-radius: 50px;
+	margin: 5px 0 0 0;
+}
+.banner {
+	padding: 20px 0
+}
+.investmentwrap h2 {
+	margin: 0
+}
+.investmentwrap h2, .howitworks h2, .aboutbitek h2, .howto h3, .header_wrap.inside h1 {
+	font-size: 40px;
+	line-height: 40px;
+}
+.affiliatebox h3 {
+	font-size: 26px
+}
+.certificatewrap {
+	padding: 0 0 30px;
+}
+.footerwrap ul {
+	padding: 0;
+}
+.nav_wrap {
+	text-align: center;
+}
+.navbar-toggle {
+	float: none;
+	margin-right: 0;
+	background-color: #f99b0f;
+	color: #fff
+}
+.ref_wrap h3 {
+	font-size: 22px;
+}
+}
+ @media screen and (max-width: 668px) {
+.wheretobuy-list ul li {
+	width: 50%;
+}
+}
+ @media screen and (max-width: 569px) {
+.membersidebar ul li {
+	width: 50%;
+}
+.form-content table td, .paidout_mid td, .my_accont table td {
+	width: 100%;
+	float: left;
+	display: block
+}
+.bannerinfo h1 {
+	font-size: 40px;
+	line-height: 40px;
+}
+.certificate, .certificateright {
+	width: 100%
+}
+.certificateright {
+	padding: 20px 0 0 0;
+}
+.certificateright .trading {
+	border-radius: 50px;
+	line-height: 50px;
+}
+}
+ @media screen and (max-width: 415px) {
+	 	 .detailed-stats-box span {
+	margin: 0;
+}
+	 .detailed-stats-box p {
+	font-size: 15px;
+}
+.detailed-stats-box h3{float:left; clear:left}
+.membersidebar ul li {
+	width: 100%;
+}
+#copyButton {
+	text-indent: -999em
+}
+.wheretobuy-list ul li {
+	width: 100%;
+}
+.investmentboxdown .left {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0
+}
+.investmentboxdown .right, .howitworksbox .left, .howitworksbox .right {
+	width: 100%;
+}
+.howitworksbox .right {
+	padding-left: 0
+}
+.affbox .left {
+	line-height: 112px;
+}
+.affbox .right {
+	font-size: 28px;
+	line-height: 34px;
+}
+.topten .heading {
+	font-size: 22px;
+}
+.statbox {
+	width: 100%;
+	padding: 0 0 50px;
+}
+.statbox:last-child {
+	padding-bottom: 20px
+}
+}
+ @media screen and (max-width: 376px) {
+.ref_wrap h3 {
+	font-size: 18px;
+}
+.loginbox a {
+	padding: 0 20px;
+}
+.bannerinfo h1 {
+	font-size: 28px;
+	line-height: 30px;
+}
+.bannerinfo p {
+	font-size: 22px;
+	margin: 0 0 20px;
+}
+.investmentwrap h2, .howitworks h2, .aboutbitek h2, .howto h3, .header_wrap.inside h1 {
+	font-size: 30px;
+	line-height: 30px;
+}
+.affiliatebox h3 {
+	font-size: 22px
+}
+.registerwrap .right {
+	padding: 0 0 0 20px;
+}
+.registerwrap .right h3 {
+	font-size: 15px;
+}
+.registerwrap .right p, .registerwrap .right p.email, .registerwrap .right p.phone {
+	font-size: 14px;
+}
+.macfree {
+	padding: 0 0 0 102px;
+}
+.affbox .left {
+	font-size: 65px;
+}
+.affbox .left span {
+	font-size: 48px;
+}
+.topten .heading {
+	font-size: 18px;
+}
+}
+ @media screen and (max-width: 321px) {
+
+.topten .info2 ul li span {
+	margin: 0 5px 0 0;
+}
+.investmentwrap h2, .howitworks h2, .aboutbitek h2, .howto h3, .header_wrap.inside h1 {
+	font-size: 28px;
+}
+.investmentbox ul li {
+	padding: 0 10px 0 40px;
+	background: url(images/bluetick.png) no-repeat left 10px center #e4eef3;
+}
+.macfree {
+	padding: 0 0 0 88px;
+}
+.topten .heading {
+	font-size: 15px;
+}
+.loginbox a {
+	font-size: 12px;
+	padding: 0 15px;
+}
+}
+.imagefloatleft {
+	float:left;
+	margin:0 25px 0 0;
+}
+.imagefloatright {
+	float:right;
+	margin:0 0 0 25px;
+}
